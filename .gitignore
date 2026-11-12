@@ -37,11 +37,13 @@ venv.bak/
 */.ipynb_checkpoints/*
 .pytest_cache/
 
-# Data files (keep directory structure via .gitkeep, ignore actual datasets)
+# Data files (keep directory structure via .gitkeep, track processed dataset for Streamlit Cloud)
 data/raw/*
 !data/raw/.gitkeep
 data/processed/*
 !data/processed/.gitkeep
+!data/processed/clean_superstore.parquet
+!data/processed/clean_superstore.csv
 
 # Environment variables & credentials
 .env
