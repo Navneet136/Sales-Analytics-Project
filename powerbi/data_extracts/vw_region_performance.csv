@@ -1,0 +1,605 @@
+region,state,city,total_orders,unique_customers,total_units,total_sales,total_profit,avg_discount_pct,profit_margin_pct
+Central,Illinois,Arlington Heights,1,1,6,14.11,1.23,20.0,8.75
+Central,Illinois,Aurora,20,20,128,7572.97,-1894.72,39.41,-25.02
+Central,Illinois,Bloomington,6,6,27,963.94,-432.13,36.25,-44.83
+Central,Illinois,Bolingbrook,3,3,23,218.31,-4.66,40.0,-2.14
+Central,Illinois,Buffalo Grove,2,2,10,831.4,-89.65,35.0,-10.78
+Central,Illinois,Carol Stream,1,1,18,1305.81,-39.87,24.0,-3.05
+Central,Illinois,Champaign,1,1,5,151.96,-182.35,60.0,-120.0
+Central,Illinois,Chicago,171,155,1132,48539.54,-6654.57,38.38,-13.71
+Central,Illinois,Danville,1,1,7,43.37,-69.4,80.0,-160.0
+Central,Illinois,Decatur,9,9,77,3169.47,-311.03,30.0,-9.81
+Central,Illinois,Des Plaines,2,2,24,1493.21,-236.77,43.33,-15.86
+Central,Illinois,Elmhurst,2,2,14,891.63,-212.13,22.5,-23.79
+Central,Illinois,Evanston,3,3,11,1753.8,411.88,22.5,23.49
+Central,Illinois,Frankfort,2,2,10,97.63,-26.06,50.0,-26.69
+Central,Illinois,Freeport,2,2,12,215.82,-127.45,45.0,-59.05
+Central,Illinois,Glenview,1,1,3,158.38,13.86,20.0,8.75
+Central,Illinois,Highland Park,3,3,28,2035.1,-169.94,41.43,-8.35
+Central,Illinois,Naperville,5,5,33,1288.3,-146.53,43.75,-11.37
+Central,Illinois,Normal,1,1,4,366.74,-110.02,30.0,-30.0
+Central,Illinois,Oak Park,1,1,7,10.19,1.02,20.0,10.0
+Central,Illinois,Orland Park,1,1,5,339.96,67.99,20.0,20.0
+Central,Illinois,Oswego,1,1,13,321.98,-536.13,60.0,-166.51
+Central,Illinois,Palatine,1,1,7,116.31,23.26,20.0,20.0
+Central,Illinois,Park Ridge,3,3,17,685.0,-238.45,33.33,-34.81
+Central,Illinois,Peoria,4,4,23,501.48,-72.76,60.0,-14.51
+Central,Illinois,Quincy,6,6,40,330.28,49.1,40.0,14.87
+Central,Illinois,Rockford,8,8,64,3166.23,-1149.51,50.91,-36.31
+Central,Illinois,Romeoville,1,1,2,8.95,-14.77,80.0,-165.0
+Central,Illinois,Saint Charles,3,3,20,1388.71,216.64,41.67,15.6
+Central,Illinois,Skokie,5,5,44,568.83,-346.87,47.27,-60.98
+Central,Illinois,Tinley Park,1,1,7,22.29,-8.92,60.0,-40.0
+Central,Illinois,Wheeling,2,2,9,737.14,-293.32,43.33,-39.79
+Central,Illinois,Woodstock,3,3,15,857.25,-24.89,43.33,-2.9
+Central,Indiana,Bloomington,4,4,31,603.8,182.77,0.0,30.27
+Central,Indiana,Columbus,16,16,114,7960.4,2522.48,0.0,31.69
+Central,Indiana,Elkhart,1,1,7,171.43,16.67,0.0,9.73
+Central,Indiana,Greenwood,2,2,19,1665.05,471.73,0.0,28.33
+Central,Indiana,Indianapolis,12,12,95,9306.42,2741.65,0.0,29.46
+Central,Indiana,La Porte,3,3,33,1021.34,224.51,0.0,21.98
+Central,Indiana,Lafayette,7,7,43,19630.45,8976.1,0.0,45.73
+Central,Indiana,Lawrence,6,6,52,1545.13,532.74,0.0,34.48
+Central,Indiana,Mishawaka,2,2,11,776.24,96.59,0.0,12.44
+Central,Indiana,New Albany,1,1,15,209.55,73.35,0.0,35.0
+Central,Indiana,New Castle,1,1,9,84.61,23.08,0.0,27.28
+Central,Indiana,Noblesville,2,2,15,3091.18,353.31,0.0,11.43
+Central,Indiana,Portage,1,1,2,16.28,6.51,0.0,40.0
+Central,Indiana,Richmond,14,13,107,6235.15,1881.86,0.0,30.18
+Central,Indiana,South Bend,1,1,25,1238.33,279.55,0.0,22.57
+Central,Iowa,Burlington,2,2,9,57.43,26.67,0.0,46.44
+Central,Iowa,Cedar Rapids,1,1,3,278.4,80.74,0.0,29.0
+Central,Iowa,Des Moines,5,5,43,2008.84,360.4,0.0,17.94
+Central,Iowa,Dubuque,2,2,18,1687.3,477.67,0.0,28.31
+Central,Iowa,Iowa City,1,1,1,9.99,4.5,0.0,45.0
+Central,Iowa,Marion,3,3,22,358.36,164.29,0.0,45.85
+Central,Iowa,Urbandale,2,2,12,149.12,57.72,0.0,38.71
+Central,Iowa,Waterloo,1,1,4,30.32,11.82,0.0,39.0
+Central,Kansas,Garden City,3,3,8,312.38,90.63,0.0,29.01
+Central,Kansas,Manhattan,1,1,2,273.96,10.96,0.0,4.0
+Central,Kansas,Olathe,2,2,15,895.79,207.41,0.0,23.15
+Central,Kansas,Overland Park,3,3,23,606.91,203.52,0.0,33.53
+Central,Kansas,Wichita,5,5,26,825.27,323.93,0.0,39.25
+Central,Michigan,Ann Arbor,2,2,23,889.27,228.92,2.0,25.74
+Central,Michigan,Canton,2,2,13,818.13,149.28,0.0,18.25
+Central,Michigan,Dearborn,2,2,23,1603.31,467.39,2.0,29.15
+Central,Michigan,Dearborn Heights,2,2,19,1051.57,140.89,0.0,13.4
+Central,Michigan,Detroit,53,50,441,42446.94,13181.79,0.7,31.05
+Central,Michigan,Grand Rapids,6,6,31,526.13,233.92,0.0,44.46
+Central,Michigan,Holland,2,2,11,137.86,66.66,0.0,48.35
+Central,Michigan,Jackson,14,14,132,15420.04,5525.2,0.79,35.83
+Central,Michigan,Lansing,3,3,25,1610.29,412.87,1.25,25.64
+Central,Michigan,Lincoln Park,2,2,11,387.6,68.37,3.33,17.64
+Central,Michigan,Midland,5,5,39,5291.51,2293.68,0.83,43.35
+Central,Michigan,Mount Pleasant,1,1,2,17.14,6.17,0.0,36.0
+Central,Michigan,Oak Park,1,1,5,580.86,151.02,0.0,26.0
+Central,Michigan,Rochester Hills,1,1,4,132.52,54.33,0.0,41.0
+Central,Michigan,Roseville,4,4,21,638.33,268.91,0.0,42.13
+Central,Michigan,Royal Oak,2,2,4,35.34,16.96,0.0,48.0
+Central,Michigan,Saginaw,2,2,24,395.86,77.18,0.0,19.5
+Central,Michigan,Sterling Heights,3,3,11,110.04,33.07,0.0,30.05
+Central,Michigan,Taylor,3,3,7,353.7,44.87,0.0,12.69
+Central,Michigan,Trenton,4,4,54,1765.2,652.1,0.77,36.94
+Central,Michigan,Westland,3,3,46,2057.98,389.6,0.77,18.93
+Central,Minnesota,Apple Valley,2,2,5,137.94,8.97,0.0,6.5
+Central,Minnesota,Coon Rapids,1,1,7,503.13,136.45,0.0,27.12
+Central,Minnesota,Cottage Grove,1,1,6,144.36,54.8,0.0,37.96
+Central,Minnesota,Eagan,3,3,22,214.28,87.03,0.0,40.62
+Central,Minnesota,Lakeville,5,5,84,4260.95,1346.6,0.0,31.6
+Central,Minnesota,Maple Grove,2,2,13,882.87,385.01,0.0,43.61
+Central,Minnesota,Minneapolis,13,13,80,16870.54,6824.58,0.0,40.45
+Central,Minnesota,Moorhead,2,2,9,543.86,101.41,0.0,18.65
+Central,Minnesota,Rochester,8,8,50,1957.4,520.2,0.0,26.58
+Central,Minnesota,Roseville,2,2,20,2215.52,667.53,0.0,30.13
+Central,Minnesota,Saint Cloud,1,1,13,1331.82,469.61,0.0,35.26
+Central,Minnesota,Saint Paul,2,2,11,192.83,24.88,0.0,12.9
+Central,Minnesota,Woodbury,2,2,11,607.65,196.1,0.0,32.27
+Central,Missouri,Columbia,3,3,38,2990.04,1106.77,0.0,37.02
+Central,Missouri,Gladstone,1,1,5,164.34,52.59,0.0,32.0
+Central,Missouri,Independence,2,2,6,2417.37,975.66,0.0,40.36
+Central,Missouri,Jefferson City,1,1,2,86.62,8.66,0.0,10.0
+Central,Missouri,Kirkwood,1,1,7,241.34,47.13,0.0,19.53
+Central,Missouri,Saint Charles,3,3,13,270.94,94.84,0.0,35.01
+Central,Missouri,Saint Louis,4,4,26,285.96,98.55,0.0,34.46
+Central,Missouri,Saint Peters,1,1,4,697.16,146.4,0.0,21.0
+Central,Missouri,Springfield,14,13,151,15051.38,3905.59,0.0,25.95
+Central,Nebraska,Fremont,7,7,33,1119.01,179.47,0.0,16.04
+Central,Nebraska,Grand Island,1,1,2,15.96,7.98,0.0,50.0
+Central,Nebraska,Norfolk,1,1,3,17.43,8.02,0.0,46.0
+Central,Nebraska,Omaha,14,14,98,6312.53,1841.63,0.0,29.17
+Central,North Dakota,Fargo,2,2,30,919.91,230.15,0.0,25.02
+Central,Oklahoma,Broken Arrow,3,3,17,2439.53,575.52,0.0,23.59
+Central,Oklahoma,Edmond,1,1,9,959.55,243.1,0.0,25.34
+Central,Oklahoma,Lawton,2,2,13,1057.49,235.51,0.0,22.27
+Central,Oklahoma,Muskogee,2,2,14,1721.7,442.6,0.0,25.71
+Central,Oklahoma,Norman,2,2,9,1351.33,269.53,0.0,19.95
+Central,Oklahoma,Oklahoma City,11,11,78,6596.82,1580.76,0.0,23.96
+Central,Oklahoma,Tulsa,13,13,107,5556.97,1506.94,0.0,27.12
+Central,South Dakota,Aberdeen,1,1,3,25.5,6.63,0.0,26.0
+Central,South Dakota,Rapid City,1,1,4,152.64,44.77,0.0,29.33
+Central,South Dakota,Sioux Falls,3,3,35,1137.42,343.43,0.0,30.19
+Central,Texas,Abilene,1,1,2,1.39,-3.76,80.0,-270.0
+Central,Texas,Allen,2,2,13,290.21,-39.88,37.5,-13.74
+Central,Texas,Amarillo,7,7,32,3773.06,-387.97,27.2,-10.28
+Central,Texas,Arlington,10,10,131,5847.77,-254.39,38.21,-4.35
+Central,Texas,Austin,18,18,131,6057.98,-20.39,34.36,-0.34
+Central,Texas,Baytown,1,1,2,10.37,3.63,20.0,35.0
+Central,Texas,Beaumont,3,3,21,472.12,59.12,40.0,12.52
+Central,Texas,Bedford,2,2,25,226.26,10.62,32.0,4.69
+Central,Texas,Brownsville,4,4,27,1292.23,202.07,23.14,15.64
+Central,Texas,Bryan,2,2,27,616.66,-213.71,61.67,-34.66
+Central,Texas,Carrollton,8,8,50,2200.65,-470.21,41.33,-21.37
+Central,Texas,Cedar Hill,2,2,6,122.38,42.83,20.0,35.0
+Central,Texas,College Station,2,2,19,291.04,-117.62,43.33,-40.41
+Central,Texas,Conroe,1,1,9,111.67,6.98,20.0,6.25
+Central,Texas,Coppell,2,2,17,135.94,41.49,20.0,30.52
+Central,Texas,Corpus Christi,3,3,33,220.54,-43.73,42.5,-19.83
+Central,Texas,Dallas,80,77,555,20131.93,-2846.53,35.86,-14.14
+Central,Texas,Deer Park,1,1,6,6.92,-10.39,80.0,-150.0
+Central,Texas,Edinburg,2,2,11,88.28,27.81,40.0,31.5
+Central,Texas,El Paso,10,10,65,3546.06,-179.9,30.53,-5.07
+Central,Texas,Fort Worth,12,12,102,6602.71,298.73,42.0,4.52
+Central,Texas,Frisco,2,2,10,57.5,-18.8,40.0,-32.7
+Central,Texas,Garland,3,3,12,67.7,-32.37,45.0,-47.82
+Central,Texas,Grand Prairie,7,7,45,1012.49,-85.23,36.92,-8.42
+Central,Texas,Grapevine,1,1,12,41.53,8.77,20.0,21.13
+Central,Texas,Haltom City,2,2,13,269.33,51.96,20.0,19.29
+Central,Texas,Harlingen,2,2,21,471.4,18.13,22.4,3.85
+Central,Texas,Houston,188,172,1466,64504.76,-10153.55,37.97,-15.74
+Central,Texas,Huntsville,10,10,121,6710.62,-843.43,40.85,-12.57
+Central,Texas,Irving,5,5,23,605.5,-100.51,27.5,-16.6
+Central,Texas,Keller,1,1,2,6.0,2.1,20.0,35.0
+Central,Texas,La Porte,1,1,6,30.39,-32.53,70.0,-107.03
+Central,Texas,Laredo,4,4,37,1024.34,-54.61,32.31,-5.33
+Central,Texas,League City,2,2,25,875.37,-31.35,23.33,-3.58
+Central,Texas,Lubbock,4,4,22,592.56,147.14,46.67,24.83
+Central,Texas,Mansfield,2,2,13,558.88,-66.79,25.0,-11.95
+Central,Texas,Mcallen,4,4,54,866.72,-163.87,39.47,-18.91
+Central,Texas,Mesquite,3,3,14,52.15,-87.62,52.0,-168.02
+Central,Texas,Missouri City,1,1,7,6.37,-9.56,80.0,-150.0
+Central,Texas,Odessa,4,3,22,976.12,-69.71,36.0,-7.14
+Central,Texas,Pasadena,9,9,59,2477.46,-340.1,34.12,-13.73
+Central,Texas,Pearland,2,2,13,495.0,39.41,40.0,7.96
+Central,Texas,Pharr,2,2,22,1540.71,-237.55,32.5,-15.42
+Central,Texas,Plano,8,8,48,3530.37,-383.06,27.47,-10.85
+Central,Texas,Port Arthur,3,3,12,737.05,105.78,22.0,14.35
+Central,Texas,Richardson,1,1,12,1288.46,-24.49,40.0,-1.9
+Central,Texas,Round Rock,3,3,23,4854.05,-1183.43,27.43,-24.38
+Central,Texas,San Angelo,2,2,13,650.64,-58.55,42.5,-9.0
+Central,Texas,San Antonio,27,27,247,21843.53,-7299.05,38.31,-33.42
+Central,Texas,San Marcos,1,1,12,108.44,-19.34,30.0,-17.84
+Central,Texas,Texas City,2,2,7,790.97,20.22,30.0,2.56
+Central,Texas,The Colony,2,2,14,142.16,31.66,20.0,22.27
+Central,Texas,Tyler,2,2,16,347.21,-443.71,64.0,-127.79
+Central,Texas,Waco,4,4,17,606.11,-520.1,52.0,-85.81
+Central,Wisconsin,Appleton,2,2,12,1671.31,554.77,0.0,33.19
+Central,Wisconsin,Eau Claire,4,4,21,1645.65,427.5,0.0,25.98
+Central,Wisconsin,Franklin,5,5,48,4774.25,1292.78,0.0,27.08
+Central,Wisconsin,Green Bay,4,4,14,527.32,228.48,0.0,43.33
+Central,Wisconsin,Kenosha,3,3,37,3906.73,1028.07,0.0,26.32
+Central,Wisconsin,La Crosse,2,2,22,830.41,272.08,0.0,32.76
+Central,Wisconsin,Madison,4,4,37,5346.79,1123.66,0.0,21.02
+Central,Wisconsin,Milwaukee,23,23,201,11410.22,2793.09,0.0,24.48
+Central,Wisconsin,Sheboygan,1,1,10,79.74,34.34,0.0,43.07
+Central,Wisconsin,Superior,2,2,37,1299.73,514.08,0.0,39.55
+Central,Wisconsin,Waukesha,1,1,5,54.5,14.17,0.0,26.0
+Central,Wisconsin,Wausau,1,1,14,317.48,90.43,0.0,28.48
+Central,Wisconsin,West Allis,1,1,5,250.48,28.37,0.0,11.33
+East,Connecticut,Bristol,3,3,17,814.58,208.16,3.75,25.55
+East,Connecticut,Danbury,1,1,2,27.46,9.89,0.0,36.0
+East,Connecticut,Fairfield,12,12,80,4935.58,1221.62,1.58,24.75
+East,Connecticut,Manchester,4,4,42,2126.28,600.51,0.0,28.24
+East,Connecticut,Meriden,5,5,32,1550.68,470.22,0.0,30.32
+East,Connecticut,Middletown,7,6,28,1154.61,157.62,0.0,13.65
+East,Connecticut,Milford,3,3,30,961.74,319.05,0.0,33.17
+East,Connecticut,Norwich,4,4,12,414.04,164.09,0.0,39.63
+East,Connecticut,Shelton,1,1,5,73.33,21.41,0.0,29.19
+East,Connecticut,Waterbury,5,5,33,1326.06,338.94,0.0,25.56
+East,Delaware,Dover,6,6,22,449.12,116.13,0.0,25.86
+East,Delaware,Newark,29,28,225,20448.05,8086.17,0.0,39.54
+East,Delaware,Wilmington,9,9,120,6553.9,1775.07,2.22,27.08
+East,District of Columbia,Washington,4,4,40,2865.02,1059.59,0.0,36.98
+East,Maine,Bangor,2,2,29,1164.45,422.22,0.0,36.26
+East,Maine,Lewiston,1,1,6,106.08,32.27,0.0,30.42
+East,Maryland,Baltimore,21,21,184,6156.84,1676.2,0.7,27.22
+East,Maryland,Clinton,10,10,119,5514.25,1274.24,1.03,23.11
+East,Maryland,Columbia,9,9,90,10962.35,3775.22,0.0,34.44
+East,Maryland,Gaithersburg,1,1,5,405.92,105.54,0.0,26.0
+East,Maryland,Hagerstown,1,1,6,43.8,20.59,0.0,47.0
+East,Maryland,Laurel,1,1,5,152.59,46.17,0.0,30.26
+East,Maryland,Rockville,3,3,11,469.77,133.21,0.0,28.36
+East,Massachusetts,Andover,1,1,13,435.85,124.19,0.0,28.49
+East,Massachusetts,Beverly,1,1,15,2583.19,654.92,0.0,25.35
+East,Massachusetts,Cambridge,3,3,19,502.09,173.73,0.0,34.6
+East,Massachusetts,Everett,8,8,83,5661.88,1360.08,1.43,24.02
+East,Massachusetts,Franklin,9,9,60,5534.56,464.63,5.29,8.4
+East,Massachusetts,Holyoke,1,1,2,301.96,60.39,0.0,20.0
+East,Massachusetts,Lawrence,15,15,114,6109.06,1849.4,1.82,30.27
+East,Massachusetts,Leominster,2,2,20,217.49,79.5,0.0,36.55
+East,Massachusetts,Lowell,7,7,60,4837.93,1312.57,0.0,27.13
+East,Massachusetts,Malden,2,2,9,228.38,31.17,0.0,13.65
+East,Massachusetts,Marlborough,1,1,6,206.64,67.61,0.0,32.72
+East,Massachusetts,New Bedford,4,4,22,235.97,50.49,0.0,21.4
+East,Massachusetts,Quincy,5,5,44,946.18,297.99,2.73,31.49
+East,Massachusetts,Revere,3,3,24,833.26,258.84,0.0,31.06
+East,New Hampshire,Concord,10,10,64,2827.63,787.63,0.0,27.85
+East,New Hampshire,Dover,5,5,53,4428.95,905.36,3.0,20.44
+East,New Hampshire,Nashua,2,2,10,35.94,13.51,0.0,37.6
+East,New Jersey,Atlantic City,1,1,2,23.36,11.68,0.0,50.0
+East,New Jersey,Bayonne,1,1,9,183.4,79.4,0.0,43.29
+East,New Jersey,Belleville,4,4,32,1891.6,283.65,0.0,15.0
+East,New Jersey,Bridgeton,1,1,6,52.41,3.44,0.0,6.57
+East,New Jersey,Clifton,1,1,9,336.82,98.59,0.0,29.27
+East,New Jersey,East Orange,2,2,20,377.27,174.62,0.0,46.28
+East,New Jersey,Hackensack,2,2,28,1456.16,451.25,0.0,30.99
+East,New Jersey,Lakewood,11,11,93,14852.04,3526.67,0.0,23.75
+East,New Jersey,Linden,1,1,7,115.36,49.6,0.0,43.0
+East,New Jersey,Morristown,5,5,31,5033.1,1838.23,0.0,36.52
+East,New Jersey,New Brunswick,1,1,3,14.77,7.16,0.0,48.45
+East,New Jersey,Orange,5,5,17,211.11,66.57,0.0,31.53
+East,New Jersey,Passaic,1,1,24,1562.09,356.82,5.0,22.84
+East,New Jersey,Paterson,6,6,62,2243.21,740.49,0.0,33.01
+East,New Jersey,Perth Amboy,4,4,22,1717.08,633.64,0.0,36.9
+East,New Jersey,Plainfield,7,7,49,4526.85,1235.67,0.0,27.3
+East,New Jersey,Vineland,4,4,24,647.97,62.25,3.75,9.61
+East,New Jersey,Westfield,4,4,16,519.72,153.18,0.0,29.47
+East,New York,Auburn,6,6,63,1384.16,280.8,1.18,20.29
+East,New York,Buffalo,7,7,46,9063.5,992.88,6.0,10.95
+East,New York,Freeport,4,4,17,523.33,107.36,5.0,20.52
+East,New York,Hempstead,4,4,51,2589.59,629.06,9.09,24.29
+East,New York,Jamestown,2,2,9,4708.79,1285.77,0.0,27.31
+East,New York,Lindenhurst,1,1,1,55.48,26.63,0.0,48.0
+East,New York,Long Beach,22,22,142,8521.2,1362.54,5.0,15.99
+East,New York,Mount Vernon,5,5,33,2119.63,662.51,2.5,31.26
+East,New York,New Rochelle,5,5,27,1255.23,368.41,5.56,29.35
+East,New York,New York City,450,355,3417,256368.16,62036.98,5.62,24.2
+East,New York,Niagara Falls,2,2,12,199.84,59.24,6.67,29.64
+East,New York,Oceanside,8,8,82,3851.13,655.17,5.45,17.01
+East,New York,Rochester,20,20,120,6017.13,1223.22,6.11,20.33
+East,New York,Rome,3,3,22,534.85,154.21,1.67,28.83
+East,New York,Troy,6,6,57,1326.56,330.44,4.0,24.91
+East,New York,Utica,4,4,33,655.04,188.56,5.0,28.79
+East,New York,Watertown,7,7,35,4045.0,907.01,8.0,22.42
+East,New York,Yonkers,6,6,57,7657.67,2767.76,6.67,36.14
+East,Ohio,Akron,10,10,65,2729.99,-186.64,35.71,-6.84
+East,Ohio,Bowling Green,4,4,25,1865.56,149.94,31.25,8.04
+East,Ohio,Cincinnati,12,12,58,1611.98,175.34,32.94,10.88
+East,Ohio,Cleveland,21,21,138,6346.18,-848.01,30.48,-13.36
+East,Ohio,Columbus,55,52,464,15900.79,-729.51,32.08,-4.59
+East,Ohio,Cuyahoga Falls,3,3,13,29.09,-12.58,53.33,-43.22
+East,Ohio,Dublin,5,5,51,2379.16,-351.3,34.62,-14.77
+East,Ohio,Elyria,1,1,1,1.82,-1.4,70.0,-76.67
+East,Ohio,Fairfield,10,10,75,3077.7,-129.29,32.35,-4.2
+East,Ohio,Grove City,1,1,12,123.59,13.2,55.0,10.68
+East,Ohio,Hamilton,3,3,13,328.22,-9.39,20.0,-2.86
+East,Ohio,Kent,3,3,20,346.3,-11.3,24.0,-3.26
+East,Ohio,Lakewood,13,13,76,1756.32,-336.61,35.29,-19.17
+East,Ohio,Lancaster,15,15,121,8202.62,-7149.62,31.29,-87.16
+East,Ohio,Lorain,5,5,35,2015.11,-632.92,30.0,-31.41
+East,Ohio,Marion,8,8,41,3010.99,-544.65,25.0,-18.09
+East,Ohio,Mason,1,1,7,94.26,-4.24,53.33,-4.49
+East,Ohio,Medina,3,3,38,2477.72,-1343.04,43.33,-54.2
+East,Ohio,Mentor,1,1,15,693.13,-123.27,25.0,-17.79
+East,Ohio,Newark,16,16,137,8128.07,-2292.41,28.0,-28.2
+East,Ohio,Parma,4,4,40,3879.76,31.06,24.0,0.8
+East,Ohio,Springfield,19,19,137,5613.17,-1420.16,33.89,-25.3
+East,Ohio,Toledo,15,15,122,4466.05,-340.0,33.75,-7.61
+East,Ohio,Troy,8,8,55,3180.54,-874.59,42.86,-27.5
+East,Pennsylvania,Allentown,2,2,20,853.25,-226.45,27.14,-26.54
+East,Pennsylvania,Altoona,1,1,9,20.45,-1.18,45.0,-5.79
+East,Pennsylvania,Bethlehem,2,2,18,1689.63,-1003.1,38.0,-59.37
+East,Pennsylvania,Chester,4,4,55,1968.48,48.36,33.12,2.46
+East,Pennsylvania,Lancaster,8,7,35,1211.4,-168.89,40.0,-13.94
+East,Pennsylvania,Philadelphia,265,239,1981,109077.01,-13837.77,32.68,-12.69
+East,Pennsylvania,Reading,4,4,16,873.71,-268.76,26.0,-30.76
+East,Pennsylvania,York,2,2,19,817.98,-102.17,42.0,-12.49
+East,Rhode Island,Cranston,5,5,52,4024.92,637.5,5.62,15.84
+East,Rhode Island,Providence,13,13,118,15980.65,5505.66,0.97,34.45
+East,Rhode Island,Warwick,4,4,14,2426.84,1063.8,0.0,43.83
+East,Rhode Island,Woonsocket,3,3,15,195.55,78.68,0.0,40.23
+East,Vermont,Burlington,6,5,50,8929.37,2244.98,0.0,25.14
+East,West Virginia,Wheeling,2,2,18,1209.82,185.92,7.5,15.37
+South,Alabama,Auburn,3,3,16,1766.83,452.61,0.0,25.62
+South,Alabama,Decatur,7,7,52,3374.82,1000.09,0.0,29.63
+South,Alabama,Florence,3,3,24,1997.35,248.66,0.0,12.45
+South,Alabama,Hoover,2,2,15,525.85,18.72,0.0,3.56
+South,Alabama,Huntsville,7,7,40,2484.37,1005.26,0.0,40.46
+South,Alabama,Mobile,4,4,52,5462.99,2175.83,0.0,39.83
+South,Alabama,Montgomery,6,6,48,3722.73,834.66,0.0,22.42
+South,Alabama,Tuscaloosa,2,2,9,175.7,51.01,0.0,29.03
+South,Arkansas,Conway,1,1,2,301.96,45.29,0.0,15.0
+South,Arkansas,Fayetteville,8,8,51,3742.81,1691.94,0.0,45.21
+South,Arkansas,Hot Springs,2,2,15,245.83,62.08,0.0,25.25
+South,Arkansas,Jonesboro,5,5,53,2915.32,801.11,0.0,27.48
+South,Arkansas,Little Rock,6,6,90,3560.35,1154.67,0.0,32.43
+South,Arkansas,Pine Bluff,1,1,7,212.91,70.2,0.0,32.97
+South,Arkansas,Rogers,1,1,9,40.41,18.59,0.0,46.0
+South,Arkansas,Springdale,1,1,2,4.3,1.42,0.0,33.0
+South,Arkansas,Texarkana,2,2,11,654.24,163.37,0.0,24.97
+South,Florida,Apopka,3,3,31,904.55,54.36,41.43,6.01
+South,Florida,Boca Raton,2,2,8,63.01,-22.65,36.67,-35.94
+South,Florida,Boynton Beach,4,4,28,469.58,50.66,25.0,10.79
+South,Florida,Coral Gables,1,1,6,64.25,22.36,20.0,34.8
+South,Florida,Coral Springs,4,4,21,824.99,18.56,20.0,2.25
+South,Florida,Daytona Beach,2,2,10,272.33,-52.33,26.25,-19.22
+South,Florida,Delray Beach,2,2,11,242.54,29.05,20.0,11.98
+South,Florida,Deltona,4,4,19,893.24,122.13,30.0,13.67
+South,Florida,Fort Lauderdale,12,12,65,4929.53,-161.36,30.0,-3.27
+South,Florida,Hialeah,10,10,76,2338.95,-179.23,28.89,-7.66
+South,Florida,Hollywood,8,8,44,1070.47,108.2,29.09,10.11
+South,Florida,Homestead,2,2,5,132.55,22.33,20.0,16.85
+South,Florida,Jacksonville,38,38,248,39133.33,-2445.66,28.47,-6.25
+South,Florida,Jupiter,1,1,1,2.06,0.15,20.0,7.5
+South,Florida,Kissimmee,1,1,2,751.98,84.6,20.0,11.25
+South,Florida,Lakeland,6,6,74,5606.89,-188.64,27.95,-3.36
+South,Florida,Margate,1,1,3,15.55,2.33,20.0,15.0
+South,Florida,Melbourne,1,1,2,95.62,9.56,20.0,10.0
+South,Florida,Miami,34,34,215,8673.07,-1150.37,32.72,-13.26
+South,Florida,Miramar,3,3,41,1531.19,32.28,26.25,2.11
+South,Florida,North Miami,2,2,6,22.13,3.08,20.0,13.92
+South,Florida,Orlando,6,6,39,1740.08,377.73,29.09,21.71
+South,Florida,Ormond Beach,1,1,3,2.81,-1.97,70.0,-70.0
+South,Florida,Palm Coast,3,3,20,274.43,17.66,40.0,6.43
+South,Florida,Pembroke Pines,4,4,47,1714.38,-72.45,32.5,-4.23
+South,Florida,Pensacola,1,1,3,2.21,-1.48,70.0,-66.67
+South,Florida,Plantation,3,3,45,1436.84,12.04,29.09,0.84
+South,Florida,Pompano Beach,2,2,12,90.44,15.01,20.0,16.59
+South,Florida,Port Orange,1,1,1,7.82,2.93,20.0,37.5
+South,Florida,Port Saint Lucie,3,3,11,248.95,4.45,36.67,1.79
+South,Florida,Saint Petersburg,6,6,53,1690.79,151.98,27.14,8.99
+South,Florida,Sanford,1,1,9,225.55,-11.83,45.0,-5.24
+South,Florida,Tallahassee,9,9,89,7250.67,392.71,27.65,5.42
+South,Florida,Tamarac,2,2,15,1413.51,-351.9,45.0,-24.9
+South,Florida,Tampa,14,14,105,5196.08,-325.24,33.33,-6.26
+South,Florida,West Palm Beach,3,3,11,141.33,31.61,20.0,22.37
+South,Georgia,Athens,5,5,30,1720.81,479.32,0.0,27.85
+South,Georgia,Atlanta,17,17,156,17197.84,6993.66,0.0,40.67
+South,Georgia,Columbus,40,37,258,14845.05,4104.12,0.0,27.65
+South,Georgia,East Point,1,1,7,268.4,102.01,0.0,38.01
+South,Georgia,Macon,4,4,24,364.01,144.85,0.0,39.79
+South,Georgia,Marietta,3,3,33,2938.62,512.15,0.0,17.43
+South,Georgia,Roswell,9,9,64,6652.32,2427.44,0.0,36.49
+South,Georgia,Sandy Springs,4,4,47,1997.03,520.59,0.0,26.07
+South,Georgia,Smyrna,5,5,60,2390.31,807.33,0.0,33.78
+South,Georgia,Warner Robins,2,2,10,434.8,53.69,0.0,12.35
+South,Georgia,Woodstock,1,1,16,286.65,104.88,0.0,36.59
+South,Kentucky,Bowling Green,2,2,5,211.81,67.12,0.0,31.69
+South,Kentucky,Florence,4,4,38,4559.8,1837.35,0.0,40.29
+South,Kentucky,Georgetown,3,3,35,1786.42,402.76,0.0,22.55
+South,Kentucky,Henderson,17,17,185,15661.01,4518.82,0.0,28.85
+South,Kentucky,Louisville,17,16,131,7275.39,1975.9,0.0,27.16
+South,Kentucky,Murray,2,2,8,264.62,94.47,0.0,35.7
+South,Kentucky,Owensboro,2,2,5,71.18,27.64,0.0,38.84
+South,Kentucky,Richmond,14,14,116,6761.52,2275.64,0.0,33.66
+South,Louisiana,Bossier City,2,2,24,1417.18,336.96,0.0,23.78
+South,Louisiana,Kenner,1,1,4,89.32,19.8,0.0,22.16
+South,Louisiana,Lafayette,10,10,61,5405.75,1042.29,0.0,19.28
+South,Louisiana,Lake Charles,2,2,16,547.41,241.26,0.0,44.07
+South,Louisiana,Monroe,6,6,51,1757.37,555.8,0.0,31.63
+South,Mississippi,Gulfport,3,3,20,166.5,77.58,0.0,46.59
+South,Mississippi,Hattiesburg,3,3,38,1722.84,582.07,0.0,33.79
+South,Mississippi,Jackson,18,17,138,7426.61,2100.44,0.0,28.28
+South,Mississippi,Southaven,2,2,25,1455.39,412.89,0.0,28.37
+South,North Carolina,Asheville,6,6,28,1475.38,77.51,27.14,5.25
+South,North Carolina,Burlington,7,7,46,12681.28,-5894.53,30.91,-46.48
+South,North Carolina,Cary,3,3,19,505.21,54.04,20.0,10.7
+South,North Carolina,Chapel Hill,1,1,3,14.02,4.73,20.0,33.75
+South,North Carolina,Charlotte,24,24,243,13693.34,-429.78,29.42,-3.14
+South,North Carolina,Concord,5,5,44,5111.84,-1788.69,22.5,-34.99
+South,North Carolina,Durham,5,5,33,879.96,116.87,25.56,13.28
+South,North Carolina,Fayetteville,12,12,117,3183.12,126.73,25.56,3.98
+South,North Carolina,Gastonia,1,1,16,895.06,-14.74,32.5,-1.65
+South,North Carolina,Goldsboro,1,1,3,34.94,3.06,20.0,8.75
+South,North Carolina,Greensboro,8,8,50,2406.78,-122.95,36.92,-5.11
+South,North Carolina,Greenville,5,5,27,2117.83,-548.99,28.89,-25.92
+South,North Carolina,Hickory,2,2,5,40.76,-1.1,45.0,-2.69
+South,North Carolina,Jacksonville,23,23,181,5579.86,121.83,29.0,2.18
+South,North Carolina,Monroe,6,6,22,1213.06,140.83,20.0,11.61
+South,North Carolina,Raleigh,13,13,77,4507.54,472.59,26.82,10.48
+South,North Carolina,Thomasville,2,2,12,151.29,33.39,36.67,22.07
+South,North Carolina,Wilmington,9,9,37,743.16,172.63,25.56,23.23
+South,North Carolina,Wilson,3,3,20,368.73,-14.34,36.67,-3.89
+South,South Carolina,Columbia,11,11,119,6168.16,1388.38,0.0,22.51
+South,South Carolina,Florence,4,4,29,1064.57,82.95,0.0,7.79
+South,South Carolina,Mount Pleasant,1,1,6,545.94,87.35,0.0,16.0
+South,South Carolina,North Charleston,2,2,5,284.25,9.67,0.0,3.4
+South,South Carolina,Rock Hill,1,1,3,11.85,3.79,0.0,32.0
+South,South Carolina,Summerville,1,1,10,406.94,196.91,0.0,48.39
+South,Tennessee,Bartlett,1,1,8,88.96,10.01,20.0,11.25
+South,Tennessee,Bristol,4,4,14,436.6,-126.52,50.0,-28.98
+South,Tennessee,Chattanooga,6,6,38,988.8,27.19,33.0,2.75
+South,Tennessee,Clarksville,3,3,27,2217.73,-1055.35,27.14,-47.59
+South,Tennessee,Columbia,10,10,69,5162.77,-664.26,26.67,-12.87
+South,Tennessee,Franklin,6,6,31,948.23,-92.54,30.91,-9.76
+South,Tennessee,Hendersonville,2,2,22,319.54,-45.39,40.0,-14.2
+South,Tennessee,Jackson,5,5,48,2117.21,-43.96,22.0,-2.08
+South,Tennessee,Johnson City,3,3,43,765.85,11.86,32.5,1.55
+South,Tennessee,Knoxville,10,10,81,3928.17,-1165.08,25.83,-29.66
+South,Tennessee,Lebanon,3,3,14,488.9,83.81,20.0,17.14
+South,Tennessee,Memphis,14,14,116,5942.34,-1479.04,28.0,-24.89
+South,Tennessee,Murfreesboro,4,4,30,337.33,15.69,33.64,4.65
+South,Tennessee,Nashville,16,16,114,6070.86,-837.49,26.9,-13.8
+South,Tennessee,Smyrna,4,4,26,848.58,19.37,34.29,2.28
+South,Virginia,Alexandria,6,6,84,5519.57,318.62,0.0,5.77
+South,Virginia,Arlington,21,21,128,14366.76,4424.09,0.0,30.79
+South,Virginia,Charlottesville,2,2,7,102.61,22.63,0.0,22.05
+South,Virginia,Chesapeake,10,10,72,5996.72,1262.79,0.0,21.06
+South,Virginia,Hampton,5,5,48,2722.26,953.83,0.0,35.04
+South,Virginia,Harrisonburg,4,4,25,4388.71,889.52,0.0,20.27
+South,Virginia,Newport News,5,5,43,3321.95,1197.05,0.0,36.03
+South,Virginia,Richmond,13,13,113,5141.26,1409.74,0.0,27.42
+South,Virginia,Salem,6,6,49,2039.55,533.03,0.0,26.13
+South,Virginia,Springfield,25,25,198,16628.53,4568.58,0.0,27.47
+South,Virginia,Suffolk,4,4,32,1597.9,389.81,0.0,24.4
+South,Virginia,Virginia Beach,11,11,62,5752.13,2024.88,0.0,35.2
+South,Virginia,Waynesboro,3,3,32,3058.77,603.39,0.0,19.73
+West,Arizona,Avondale,3,3,30,946.81,76.17,20.0,8.04
+West,Arizona,Bullhead City,1,1,3,22.29,6.72,20.0,30.17
+West,Arizona,Chandler,6,6,23,1076.75,81.46,24.29,7.57
+West,Arizona,Gilbert,5,5,58,4172.38,138.25,22.0,3.31
+West,Arizona,Glendale,13,13,67,2917.86,182.86,26.52,6.27
+West,Arizona,Mesa,14,14,128,4037.74,-559.23,32.86,-13.85
+West,Arizona,Peoria,5,5,57,1341.35,-55.11,29.38,-4.11
+West,Arizona,Phoenix,29,28,224,11000.26,-2790.88,35.4,-25.37
+West,Arizona,Scottsdale,7,7,55,1466.31,-89.49,32.5,-6.1
+West,Arizona,Sierra Vista,2,2,9,76.07,16.83,20.0,22.12
+West,Arizona,Tempe,6,6,41,1070.3,95.45,23.85,8.92
+West,Arizona,Tucson,13,12,145,6313.02,-64.97,30.31,-1.03
+West,Arizona,Yuma,4,4,22,840.86,-465.99,45.0,-55.42
+West,California,Anaheim,9,9,112,7986.87,1234.0,8.15,15.45
+West,California,Antioch,1,1,3,19.44,9.33,0.0,48.0
+West,California,Apple Valley,3,3,27,1915.08,283.62,7.86,14.81
+West,California,Bakersfield,8,8,47,1377.29,187.92,9.69,13.64
+West,California,Brentwood,6,6,66,5090.11,1216.81,6.25,23.91
+West,California,Burbank,1,1,13,3247.16,764.53,6.67,23.54
+West,California,Camarillo,2,2,16,1467.52,158.8,11.0,10.82
+West,California,Chico,3,3,43,2050.18,205.13,7.27,10.01
+West,California,Chula Vista,3,3,13,1041.62,248.43,0.0,23.85
+West,California,Citrus Heights,1,1,3,129.39,54.34,0.0,42.0
+West,California,Coachella,1,1,3,163.55,47.17,0.0,28.84
+West,California,Concord,6,6,26,2602.93,282.42,11.88,10.85
+West,California,Costa Mesa,5,5,42,1497.67,297.21,5.45,19.84
+West,California,Danville,1,1,31,1158.88,282.44,3.33,24.37
+West,California,Davis,1,1,5,32.4,15.55,0.0,48.0
+West,California,Dublin,1,1,5,22.0,1.38,20.0,6.25
+West,California,El Cajon,2,2,6,865.62,52.69,20.0,6.09
+West,California,Encinitas,2,2,13,591.98,71.06,15.0,12.0
+West,California,Escondido,3,3,9,94.55,27.75,6.67,29.35
+West,California,Fairfield,2,2,30,1470.58,117.98,6.67,8.02
+West,California,Fresno,11,10,106,7888.53,948.27,10.38,12.02
+West,California,Hesperia,3,3,18,1213.17,98.53,13.75,8.12
+West,California,Huntington Beach,5,5,19,2527.82,880.04,3.33,34.81
+West,California,Inglewood,4,4,53,3479.33,1026.7,5.0,29.51
+West,California,La Mesa,1,1,8,367.53,114.39,10.0,31.12
+West,California,La Quinta,1,1,4,46.32,18.06,0.0,39.0
+West,California,Laguna Niguel,3,3,15,290.98,41.98,8.75,14.43
+West,California,Lake Elsinore,1,1,5,283.92,17.74,20.0,6.25
+West,California,Lake Forest,2,2,17,1625.54,327.53,3.33,20.15
+West,California,Lakewood,5,5,35,1583.68,43.96,9.38,2.78
+West,California,Lancaster,4,4,15,477.44,79.44,16.0,16.64
+West,California,Lodi,2,2,9,136.98,44.49,0.0,32.48
+West,California,Long Beach,11,11,114,4933.83,746.4,6.67,15.13
+West,California,Los Angeles,384,304,2879,175851.34,30440.76,7.43,17.31
+West,California,Manteca,2,2,8,452.18,172.24,6.67,38.09
+West,California,Mission Viejo,3,3,18,775.99,151.06,3.0,19.47
+West,California,Modesto,3,3,10,326.15,19.94,13.33,6.11
+West,California,Montebello,1,1,2,27.88,3.9,0.0,14.0
+West,California,Moreno Valley,5,5,42,1262.47,353.63,2.0,28.01
+West,California,Morgan Hill,1,1,16,545.01,7.85,8.75,1.44
+West,California,Murrieta,1,1,3,484.65,92.08,0.0,19.0
+West,California,Oakland,13,13,107,5964.42,834.1,7.69,13.98
+West,California,Oceanside,5,5,25,499.61,117.51,7.5,23.52
+West,California,Ontario,1,1,5,283.92,-46.14,20.0,-16.25
+West,California,Oxnard,4,4,31,1558.1,346.46,4.44,22.24
+West,California,Pasadena,11,10,97,4112.69,429.98,6.4,10.45
+West,California,Pico Rivera,1,1,5,145.9,62.74,0.0,43.0
+West,California,Pomona,5,5,34,1482.5,150.3,2.86,10.14
+West,California,Rancho Cucamonga,4,4,14,231.85,73.74,5.0,31.81
+West,California,Redding,1,1,3,333.58,25.02,20.0,7.5
+West,California,Redlands,4,4,61,2891.02,454.16,4.69,15.71
+West,California,Redondo Beach,3,3,35,1959.8,176.43,11.88,9.0
+West,California,Redwood City,1,1,6,41.9,14.14,20.0,33.75
+West,California,Riverside,9,9,40,1944.25,374.73,4.29,19.27
+West,California,Roseville,7,7,55,734.78,316.95,2.86,43.13
+West,California,Sacramento,8,8,36,7311.28,2069.69,12.31,28.31
+West,California,Salinas,4,4,39,728.89,270.52,9.38,37.11
+West,California,San Bernardino,4,4,33,979.3,69.98,10.56,7.15
+West,California,San Clemente,1,1,10,90.06,42.54,10.0,47.24
+West,California,San Diego,88,86,670,47521.03,6377.2,8.0,13.42
+West,California,San Francisco,265,232,1935,112669.09,17507.39,6.67,15.54
+West,California,San Gabriel,1,1,13,2061.01,290.9,6.67,14.11
+West,California,San Jose,20,17,159,6071.23,1216.06,7.38,20.03
+West,California,San Luis Obispo,1,1,2,3.62,1.19,0.0,33.0
+West,California,San Mateo,1,1,6,75.18,35.33,0.0,47.0
+West,California,Santa Ana,8,7,55,3366.31,836.75,7.14,24.86
+West,California,Santa Barbara,5,5,30,4289.23,457.29,7.5,10.66
+West,California,Santa Clara,3,3,23,222.19,76.0,6.67,34.21
+West,California,Santa Maria,1,1,3,115.44,30.01,0.0,26.0
+West,California,Stockton,5,5,34,1227.6,339.53,10.0,27.66
+West,California,Sunnyvale,2,2,23,636.21,107.51,6.67,16.9
+West,California,Temecula,1,1,14,808.67,101.89,10.0,12.6
+West,California,Thousand Oaks,4,4,20,238.8,99.91,4.0,41.84
+West,California,Torrance,2,2,16,3132.27,545.15,15.0,17.4
+West,California,Vacaville,1,1,11,423.28,110.05,0.0,26.0
+West,California,Vallejo,3,3,22,1221.41,336.04,10.0,27.51
+West,California,Visalia,2,2,20,318.78,88.05,0.0,27.62
+West,California,Westminster,4,4,50,3826.65,763.69,8.24,19.96
+West,California,Whittier,1,1,4,444.77,44.48,20.0,10.0
+West,California,Woodland,2,2,7,264.66,33.38,13.33,12.61
+West,California,Yucaipa,1,1,5,50.8,13.21,0.0,26.0
+West,Colorado,Arvada,1,1,10,503.4,59.86,20.0,11.89
+West,Colorado,Aurora,15,15,130,4083.51,-797.02,31.18,-19.52
+West,Colorado,Broomfield,2,2,23,793.5,62.44,40.0,7.87
+West,Colorado,Colorado Springs,9,9,110,3694.01,-956.68,33.2,-25.9
+West,Colorado,Commerce City,1,1,3,146.35,-32.93,20.0,-22.5
+West,Colorado,Denver,17,17,164,12198.79,-244.92,27.5,-2.01
+West,Colorado,Englewood,1,1,6,124.06,13.75,20.0,11.09
+West,Colorado,Fort Collins,5,5,20,935.25,-252.69,34.29,-27.02
+West,Colorado,Greeley,1,1,5,30.35,10.36,20.0,34.14
+West,Colorado,Littleton,1,1,1,72.29,-98.8,70.0,-136.67
+West,Colorado,Longmont,2,2,10,915.09,34.83,20.0,3.81
+West,Colorado,Louisville,12,12,90,5070.42,-3406.21,33.75,-67.18
+West,Colorado,Loveland,3,3,8,20.96,4.48,32.5,21.36
+West,Colorado,Parker,2,2,24,1067.94,-164.19,45.0,-15.37
+West,Colorado,Pueblo,4,4,42,1686.94,-900.97,51.25,-53.41
+West,Colorado,Thornton,3,3,47,765.25,140.84,20.0,18.4
+West,Idaho,Boise,3,3,9,1094.47,221.94,10.0,20.28
+West,Idaho,Caldwell,1,1,11,455.63,58.7,6.67,12.88
+West,Idaho,Lewiston,1,1,1,9.58,3.35,20.0,35.0
+West,Idaho,Meridian,2,2,11,329.05,95.21,5.0,28.94
+West,Idaho,Pocatello,3,3,25,1344.94,181.36,8.57,13.48
+West,Idaho,Twin Falls,1,1,7,1148.81,266.16,10.0,23.17
+West,Montana,Billings,1,1,2,8.29,2.69,20.0,32.5
+West,Montana,Bozeman,1,1,5,43.66,20.81,0.0,47.67
+West,Montana,Great Falls,3,3,30,4605.58,1582.71,5.0,34.36
+West,Montana,Helena,2,2,17,443.84,74.62,6.67,16.81
+West,Montana,Missoula,1,1,2,487.98,152.5,20.0,31.25
+West,Nevada,Henderson,2,2,13,1888.06,393.04,6.67,20.82
+West,Nevada,Las Vegas,8,8,61,1834.02,332.44,7.69,18.13
+West,Nevada,North Las Vegas,7,7,58,9801.0,2247.69,3.75,22.93
+West,Nevada,Reno,3,3,17,644.06,115.05,10.0,17.86
+West,Nevada,Sparks,3,3,19,2561.96,228.54,6.67,8.92
+West,New Mexico,Albuquerque,7,7,65,2220.16,634.09,5.71,28.56
+West,New Mexico,Carlsbad,5,5,35,419.34,157.77,7.27,37.62
+West,New Mexico,Clovis,1,1,10,111.42,11.64,10.0,10.44
+West,New Mexico,Farmington,3,3,11,718.72,169.41,0.0,23.57
+West,New Mexico,Las Cruces,3,3,9,98.77,43.94,0.0,44.49
+West,New Mexico,Rio Rancho,1,1,7,1114.19,119.59,20.0,10.73
+West,New Mexico,Santa Fe,2,2,14,100.92,20.69,0.0,20.5
+West,Oregon,Eugene,1,1,23,1465.03,134.04,20.0,9.15
+West,Oregon,Gresham,4,4,28,2133.42,150.86,30.0,7.07
+West,Oregon,Hillsboro,2,2,14,87.84,1.55,32.5,1.76
+West,Oregon,Medford,3,3,10,90.22,19.7,32.5,21.84
+West,Oregon,Portland,15,15,92,4051.87,9.76,30.42,0.24
+West,Oregon,Redmond,4,4,42,1043.03,-174.45,36.25,-16.73
+West,Oregon,Salem,9,9,101,1404.7,-262.33,26.67,-18.68
+West,Oregon,Springfield,15,15,163,5761.26,-853.31,28.95,-14.81
+West,Oregon,Tigard,3,3,26,1393.78,-216.29,26.25,-15.52
+West,Utah,Draper,2,2,13,263.65,92.73,6.67,35.17
+West,Utah,Layton,1,1,4,4.96,2.33,0.0,47.0
+West,Utah,Lehi,2,2,8,1516.73,451.66,10.0,29.78
+West,Utah,Logan,1,1,21,280.28,46.96,8.0,16.76
+West,Utah,Murray,2,2,15,146.32,37.06,6.67,25.33
+West,Utah,Orem,5,5,32,2994.09,514.63,2.22,17.19
+West,Utah,Pleasant Grove,2,2,30,2138.18,580.65,8.57,27.16
+West,Utah,Provo,4,4,38,2761.23,388.57,6.0,14.07
+West,Utah,Salt Lake City,5,5,42,802.78,329.26,7.5,41.02
+West,Utah,West Jordan,2,2,16,311.85,102.67,4.0,32.92
+West,Washington,Auburn,1,1,1,4.18,1.5,0.0,36.0
+West,Washington,Bellevue,5,5,18,103.62,37.05,6.67,35.76
+West,Washington,Bellingham,2,2,24,3790.24,610.59,6.67,16.11
+West,Washington,Covington,2,2,20,413.68,115.11,0.0,27.83
+West,Washington,Des Moines,5,5,17,3454.44,1250.34,8.57,36.2
+West,Washington,Edmonds,5,5,42,2523.69,634.25,4.29,25.13
+West,Washington,Everett,1,1,1,3.86,1.4,20.0,36.25
+West,Washington,Kent,3,3,28,1351.25,603.1,7.5,44.63
+West,Washington,Longview,2,2,10,119.21,38.9,0.0,32.63
+West,Washington,Marysville,2,2,15,102.18,3.32,0.0,3.24
+West,Washington,Olympia,3,3,15,1020.45,139.63,8.0,13.68
+West,Washington,Pasco,2,2,27,2201.11,357.52,6.67,16.24
+West,Washington,Redmond,2,2,10,55.23,20.73,6.67,37.54
+West,Washington,Renton,1,1,14,1242.63,185.43,13.33,14.92
+West,Washington,Seattle,212,188,1590,119540.74,29156.1,6.5,24.39
+West,Washington,Spokane,5,5,36,2027.92,172.23,5.71,8.49
+West,Washington,Vancouver,3,3,15,686.84,75.45,4.0,10.99
+West,Wyoming,Cheyenne,1,1,4,1603.14,100.2,20.0,6.25
