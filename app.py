@@ -102,6 +102,13 @@ def render_sidebar(df: pd.DataFrame) -> Tuple[pd.DataFrame, object]:
         type=["csv"],
         help="Upload a Superstore-compatible CSV to test custom data.",
     )
+    sample_csv_bytes = df.head(10).to_csv(index=False).encode("utf-8")
+    st.sidebar.download_button(
+        label="Download Sample CSV Template",
+        data=sample_csv_bytes,
+        file_name="sample_sales_template.csv",
+        mime="text/csv",
+    )
 
     if uploaded_file is not None:
         try:
