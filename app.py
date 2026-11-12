@@ -9,6 +9,7 @@ Run locally:
     streamlit run app.py
 """
 
+import io
 from pathlib import Path
 from typing import Tuple
 
@@ -47,6 +48,37 @@ st.set_page_config(
     page_icon="📊",
     layout="wide",
 )
+
+
+def format_inr(amount: float, compact: bool = False) -> str:
+    """Format numeric amounts in Indian Rupees (₹) with Indian comma grouping or compact L/Cr units."""
+    sign = "-" if amount < 0 else ""
+    abs_val = abs(float(amount))
+
+    if compact:
+        if abs_val >= 1e7:
+            return f"{sign}₹{abs_val / 1e7:.2f} Cr"
+        if abs_val >= 1e5:
+            return f"{sign}₹{abs_val / 1e5:.2f} L"
+        if abs_val >= 1e3:
+            return f"{sign}₹{abs_val / 1e3:.2f} K"
+        return f"{sign}₹{abs_val:,.2f}"
+
+    whole_str, dec_str = f"{abs_val:.2f}".split(".")
+    if len(whole_str) > 3:
+        last_three = whole_str[-3:]
+        remaining = whole_str[:-3]
+        groups = []
+        while len(remaining) > 2:
+            groups.append(remaining[-2:])
+            remaining = remaining[:-2]
+        if remaining:
+            groups.append(remaining)
+        grouped = ",".join(reversed(groups)) + "," + last_three
+    else:
+        grouped = whole_str
+
+    return f"{sign}₹{grouped}.{dec_str}"
 
 
 def prepare_dataframe(df: pd.DataFrame) -> pd.DataFrame:
@@ -94,15 +126,37 @@ def load_default_data() -> Tuple[pd.DataFrame, str]:
     )
 
 
+def load_uploaded_file(uploaded_file) -> pd.DataFrame:
+    """Read an uploaded CSV or Excel file with sheet selection and encoding fallback."""
+    filename = uploaded_file.name.lower()
+    if filename.endswith((".xlsx", ".xls")):
+        excel_file = pd.ExcelFile(uploaded_file)
+        sheet_names = excel_file.sheet_names
+        if len(sheet_names) > 1:
+            selected_sheet = st.sidebar.selectbox("Select Excel Sheet", options=sheet_names)
+        else:
+            selected_sheet = sheet_names[0]
+        raw_df = pd.read_excel(excel_file, sheet_name=selected_sheet)
+    else:
+        try:
+            raw_df = pd.read_csv(uploaded_file, encoding="utf-8")
+        except UnicodeDecodeError:
+            uploaded_file.seek(0)
+            raw_df = pd.read_csv(uploaded_file, encoding="latin-1")
+    return prepare_dataframe(raw_df)
+
+
 def render_sidebar(df: pd.DataFrame) -> Tuple[pd.DataFrame, object]:
-    """Render sidebar file uploader and interactive filters."""
+    """Render sidebar file uploader, sample templates, and interactive filters."""
     st.sidebar.header("Data & Filters")
     uploaded_file = st.sidebar.file_uploader(
-        "Upload custom Sales CSV (optional)",
-        type=["csv"],
-        help="Upload a Superstore-compatible CSV to test custom data.",
+        "Upload custom Sales file (CSV or Excel)",
+        type=["csv", "xlsx", "xls"],
+        help="Upload a Superstore-compatible CSV or Excel (.xlsx/.xls) file to test custom data.",
     )
-    sample_csv_bytes = df.head(10).to_csv(index=False).encode("utf-8")
+
+    sample_df = df.head(10)
+    sample_csv_bytes = sample_df.to_csv(index=False).encode("utf-8")
     st.sidebar.download_button(
         label="Download Sample CSV Template",
         data=sample_csv_bytes,
@@ -110,12 +164,21 @@ def render_sidebar(df: pd.DataFrame) -> Tuple[pd.DataFrame, object]:
         mime="text/csv",
     )
 
+    excel_buf = io.BytesIO()
+    sample_df.to_excel(excel_buf, index=False, engine="openpyxl")
+    st.sidebar.download_button(
+        label="Download Sample Excel Template",
+        data=excel_buf.getvalue(),
+        file_name="sample_sales_template.xlsx",
+        mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    )
+
     if uploaded_file is not None:
         try:
-            df = prepare_dataframe(pd.read_csv(uploaded_file))
+            df = load_uploaded_file(uploaded_file)
             st.sidebar.success(f"Loaded custom file: {uploaded_file.name}")
         except Exception as exc:
-            st.sidebar.error(f"Could not parse uploaded CSV: {exc}")
+            st.sidebar.error(f"Could not parse uploaded file: {exc}")
 
     regions = sorted(df["region"].dropna().unique().tolist())
     categories = sorted(df["category"].dropna().unique().tolist())
@@ -147,8 +210,8 @@ def render_kpi_row(df: pd.DataFrame) -> None:
     total_orders = int(df["order_id"].nunique())
 
     c1, c2, c3, c4 = st.columns(4)
-    c1.metric("Total Sales ($)", f"${total_sales:,.2f}")
-    c2.metric("Total Profit ($)", f"${total_profit:,.2f}")
+    c1.metric("Total Sales (₹)", format_inr(total_sales, compact=True), help=format_inr(total_sales))
+    c2.metric("Total Profit (₹)", format_inr(total_profit, compact=True), help=format_inr(total_profit))
     c3.metric("Overall Profit Margin (%)", f"{overall_margin:.2f}%")
     c4.metric("Total Orders", f"{total_orders:,}")
 
@@ -168,9 +231,9 @@ def render_executive_trends_tab(df: pd.DataFrame) -> None:
             x=monthly["year_month"],
             y=monthly["sales"],
             mode="lines+markers",
-            name="Monthly Sales ($)",
+            name="Monthly Sales (₹)",
             line=dict(color="#1f77b4", width=2.5),
-            hovertemplate="%{x|%Y-%m}<br>Sales: $%{y:,.2f}<extra></extra>",
+            hovertemplate="%{x|%Y-%m}<br>Sales: ₹%{y:,.2f}<extra></extra>",
         )
     )
     fig_trend.add_trace(
@@ -178,15 +241,15 @@ def render_executive_trends_tab(df: pd.DataFrame) -> None:
             x=monthly["year_month"],
             y=monthly["profit"],
             mode="lines+markers",
-            name="Monthly Profit ($)",
+            name="Monthly Profit (₹)",
             line=dict(color="#2ca02c", width=2.5),
-            hovertemplate="%{x|%Y-%m}<br>Profit: $%{y:,.2f}<extra></extra>",
+            hovertemplate="%{x|%Y-%m}<br>Profit: ₹%{y:,.2f}<extra></extra>",
         )
     )
     fig_trend.update_layout(
         title="Monthly Revenue & Profit Trend",
         xaxis_title="Order Month",
-        yaxis_title="Amount (USD)",
+        yaxis_title="Amount (₹)",
         hovermode="x unified",
         height=420,
     )
@@ -203,7 +266,7 @@ def render_executive_trends_tab(df: pd.DataFrame) -> None:
         var_name="Metric",
         value_name="Amount",
     )
-    reg_melt["Metric"] = reg_melt["Metric"].map({"sales": "Total Sales", "profit": "Total Profit"})
+    reg_melt["Metric"] = reg_melt["Metric"].map({"sales": "Total Sales (₹)", "profit": "Total Profit (₹)"})
 
     fig_region = px.bar(
         reg_melt,
@@ -211,12 +274,12 @@ def render_executive_trends_tab(df: pd.DataFrame) -> None:
         y="Amount",
         color="Metric",
         barmode="group",
-        color_discrete_map={"Total Sales": "#1f77b4", "Total Profit": "#2ca02c"},
+        color_discrete_map={"Total Sales (₹)": "#1f77b4", "Total Profit (₹)": "#2ca02c"},
         title="Regional Performance: Sales vs. Profit",
-        labels={"region": "Region", "Amount": "Amount (USD)"},
+        labels={"region": "Region", "Amount": "Amount (₹)"},
         height=400,
     )
-    fig_region.update_traces(hovertemplate="%{x}<br>%{fullData.name}: $%{y:,.2f}<extra></extra>")
+    fig_region.update_traces(hovertemplate="%{x}<br>%{fullData.name}: ₹%{y:,.2f}<extra></extra>")
     st.plotly_chart(fig_region, width="stretch")
 
 
@@ -305,7 +368,7 @@ def render_leaderboard_tab(df: pd.DataFrame) -> None:
             .head(10)
         )
         st.dataframe(
-            top_products.style.format({"units_sold": "{:,}", "sales": "${:,.2f}", "profit": "${:,.2f}", "margin_pct": "{:.2f}%"}),
+            top_products.style.format({"units_sold": "{:,}", "sales": format_inr, "profit": format_inr, "margin_pct": "{:.2f}%"}),
             width="stretch",
             hide_index=True,
         )
@@ -320,7 +383,7 @@ def render_leaderboard_tab(df: pd.DataFrame) -> None:
             .head(10)
         )
         st.dataframe(
-            top_customers.style.format({"orders": "{:,}", "sales": "${:,.2f}", "profit": "${:,.2f}", "margin_pct": "{:.2f}%"}),
+            top_customers.style.format({"orders": "{:,}", "sales": format_inr, "profit": format_inr, "margin_pct": "{:.2f}%"}),
             width="stretch",
             hide_index=True,
         )
@@ -353,7 +416,7 @@ def render_leaderboard_tab(df: pd.DataFrame) -> None:
 def main() -> None:
     """Application entrypoint."""
     st.title("📊 Retail Sales & Profitability Analytics Dashboard")
-    st.caption("Interactive US Superstore Business Intelligence Explorer (2014–2017)")
+    st.caption("Interactive Retail Sales & Profitability Explorer (2014–2017)")
 
     base_df, source_label = load_default_data()
     filtered_df, uploaded_file = render_sidebar(base_df)
